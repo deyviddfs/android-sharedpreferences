@@ -25,4 +25,6 @@
     <string name="action_settings">Configurações</string>
     <string name="excluir">Excluir</string>
     <string name="atualizar">Atualizar</string>
+    <string name="apelido">Apelido</string>
+    <string name="configuracoes_atualizadas_com_sucesso">Configurações atualizadas com sucesso!</string>
 </resources>
