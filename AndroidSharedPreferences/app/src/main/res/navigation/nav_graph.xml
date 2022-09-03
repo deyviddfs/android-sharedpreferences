@@ -10,13 +10,23 @@
         android:name="br.com.deyvidfernandes.androidsharedpreferences.fragment.AlunosFragment"
         android:label="@string/alunos"
         tools:layout="@layout/fragment_alunos" >
-       </fragment>
+        <action
+            android:id="@+id/action_alunosFragment_to_formAlunoFragment"
+            app:destination="@id/formAlunoFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
 
     <fragment
         android:id="@+id/formAlunoFragment"
         android:name="br.com.deyvidfernandes.androidsharedpreferences.fragment.FormAlunoFragment"
         android:label="@string/cadastro"
-        tools:layout="@layout/fragment_form_aluno" />
+        tools:layout="@layout/fragment_form_aluno" >
+        <action
+            android:id="@+id/action_formAlunoFragment_to_alunosFragment"
+            app:destination="@id/alunosFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/perfilFragment"

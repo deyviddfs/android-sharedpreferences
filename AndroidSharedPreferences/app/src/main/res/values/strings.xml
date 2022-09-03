@@ -23,4 +23,6 @@
     <string name="perfil_nome">Deyvid Fernandes</string>
     <string name="perfil_email">deyvid.dfs@gmail.com</string>
     <string name="action_settings">Configurações</string>
+    <string name="excluir">Excluir</string>
+    <string name="atualizar">Atualizar</string>
 </resources>

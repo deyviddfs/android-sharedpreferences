@@ -4,6 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.os.bundleOf
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import br.com.deyvidfernandes.androidsharedpreferences.database.Aluno
 
@@ -37,7 +39,8 @@ class AlunoAdapter (private val dataSet: List<Aluno>): RecyclerView.Adapter<Alun
         holder.textViewTurma.text = aluno.turma
 
         holder.itemView.setOnClickListener {
-            //TODO: Implementar o onclick do editar/excluir
+            val bundle = bundleOf("aluno_id" to aluno.id)
+            it.findNavController().navigate(R.id.action_alunosFragment_to_formAlunoFragment, bundle)
         }
     }
 
