@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AndroidNDAlunos</string>
+    <string name="alunos">Alunos</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="perfil">Perfil</string>
+    <string name="foto_perfil">Foto Perfil</string>
+    <string name="rm">RM</string>
+    <string name="nome_do_aluno">Nome do aluno</string>
+    <string name="curso">Curso</string>
+    <string name="ano">Ano</string>
+    <string name="turma">Turma</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome">Nome</string>
+    <string name="e_mail">E-mail</string>
+    <string name="tem_certeza_que_deseja_excluir">Tem certeza que deseja excluir?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="registro_cadastrado_com_sucesso">Registro cadastrado com sucesso!</string>
+    <string name="registro_atualizado_com_sucesso">Registro atualizado com sucesso!</string>
+    <string name="campo_nome_e_obrigatorio">Campo nome é obrigatório</string>
+    <string name="vazio"></string>
+    <string name="perfil_nome">Deyvid Fernandes</string>
+    <string name="perfil_email">deyvid.dfs@gmail.com</string>
+    <string name="action_settings">Configurações</string>
+    <string name="excluir">Excluir</string>
+    <string name="atualizar">Atualizar</string>
+</resources>
